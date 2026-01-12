@@ -173,16 +173,7 @@ This application uses the official Scalekit Node SDK (`@scalekit-sdk/node`) for 
 - **Permission-Based Access Control**: Route protection based on token permissions
 - **TypeScript Support**: Full type safety throughout the application
 
-#### Differences from Django/FastAPI Versions
 
-This Next.js version maintains the same functionality but uses:
-
-- **Next.js App Router** instead of Django/FastAPI routing
-- **React Server Components** for server-side rendering
-- **Next.js API Routes** for server-side authentication logic
-- **Cookie-based sessions** (HTTP-only cookies) instead of server sessions
-- **Client Components** for interactive UI elements
-- **Same Scalekit Node SDK** integration
 
 #### Support
 
