@@ -2,8 +2,8 @@
   command = "npm run build"
   publish = ".next"
 
-[plugins]
-  [plugins."@netlify/plugin-nextjs"]
+[[plugins]]
+package = "@netlify/plugin-nextjs"
 
 # Exclude URL environment variables from secrets scanning
 [context.production.environment]
